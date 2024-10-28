@@ -1,0 +1,415 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+header {
+  display: flex;
+  border: 1px solid #181515;
+  justify-content: space-between;
+  padding: 0px 10px;
+  height: 15vh;
+  align-items: center;
+  font-weight: 800;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+}
+
+.menuIcon {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: #070707;
+}
+
+.heroSection {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(71, 70, 70, 0.7)),
+    url("./img/mumuy\ GO.jpg");
+  height: 90vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  font-family: monospace;
+  gap: 10px;
+}
+
+.heroSection h1 {
+  font-size: 5vw;
+}
+.heroSection p {
+  font-size: 3vw;
+}
+
+.heroSection button {
+  border: none;
+  background-color: #b986b7;
+  padding: 15px 40px;
+  color: #fff;
+  font-weight: 600px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: rgb(3, 25, 3);
+  padding: 10px;
+  height: fit-content;
+  color: #fff;
+}
+
+.icons {
+  display: flex;
+  width: 8%;
+  justify-content: space-between;
+  gap: 10px;
+  row-gap: 20px;
+  flex-wrap: wrap;
+}
+
+.social {
+  padding: 20px 0px;
+  border-bottom: 1px solid #fff;
+  margin-top: 14px;
+  /* margin-bottom: 30px; */
+}
+
+.social h3 {
+  margin: 10px 0px;
+  font-size: 25px;
+}
+
+.icons a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  font-size: 20px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.fig img {
+  height: 40%;
+  width: 100%;
+}
+.fig {
+  gap: 3%;
+  margin: 10px 20px;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: row;
+}
+figure {
+  border-left: #000 solid;
+  border-right: #000 solid;
+  border-top: #000 solid;
+  border-bottom: #000 solid;
+  margin-bottom: 60px;
+}
+/* figcaption{
+    font-size: 30px;
+} */
+
+.services h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.who {
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: orangered;
+}
+
+.mobil {
+  display: flex;
+  justify-content: space-between;
+  height: 60vh;
+  margin-top: 50px;
+}
+
+.advanced {
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #000;
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.state {
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid #000;
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  padding: 5px 10px;
+  gap: 85px;
+}
+
+.state form div {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 5px;
+}
+
+.state div {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 0px 20px;
+}
+
+.state div input {
+  outline: none;
+  height: 30px;
+  padding-left: 10px;
+}
+
+.about {
+  padding: 70px;
+}
+
+.Factory {
+  display: flex;
+  height: 60vh;
+  justify-content: space-between;
+  margin-top: 50px;
+  gap: 50px;
+}
+
+.Factory img {
+  border-radius: 4px;
+  width: 45%;
+  height: 100%;
+}
+
+article p {
+  font-weight: 900;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* font-size: 18px; */
+}
+
+article button {
+  border: none;
+  background-color: #b986b7;
+  padding: 15px 40px;
+  color: #fff;
+  font-weight: 600px;
+  border-radius: 5px;
+}
+
+.TEXTIMONIALS {
+  text-align: center;
+  padding: 70px;
+}
+.submit {
+  justify-content: center;
+  background-color: red;
+  margin-left: 50%;
+  margin-top: 30px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  color: #ece8e8;
+  font-size: 20px;
+}
+.testmonial {
+  display: flex;
+  height: 80vh;
+  justify-content: space-between;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+/* figure {
+  border: #6b6868 solid;
+} */
+
+.testmonial figure {
+  width: 23%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.testifier {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.testmonial figcaption {
+  padding: 10px;
+  text-align: center;
+}
+.testmonial p {
+  text-align: start;
+}
+
+.testmonial figcaption b {
+  margin: 10px 0px;
+  font-size: 18px;
+}
+
+.remove {
+  background-color: grey;
+  margin-top: 60px;
+  padding: 20px 20px;
+  text-align: center;
+  height: 20vh;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.partner {
+  text-align: center;
+}
+.sponsor {
+  display: flex;
+  flex-direction: row;
+}
+
+.advanced form {
+  width: 45%;
+  border: 1px solid gray;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.mobil form div input {
+  outline: none;
+  height: 30px;
+  padding-left: 10px;
+}
+
+/* This is the media query of this website */
+@media only screen and (max-width: 1000px) {
+  .about,
+  .services,
+  .mobil,
+  .testmonail-section {
+    padding: 70px 20px;
+  }
+
+  .testmonial figure {
+    width: 1000%;
+    height: 80vh;
+  }
+  .icons {
+    width: 100%;
+    justify-content: start;
+    gap: 10px;
+  }
+
+  .testmonial {
+    height: fit-content;
+    gap: 10px;
+    width: 100%;
+  }
+  .fig {
+    flex-wrap: wrap;
+    height: fit-content;
+    gap: 10px;
+  }
+
+  .fig figure {
+    height: 80vh;
+    font-size: 15px;
+    width: 45%;
+  }
+  .Factory {
+    height: 70vh;
+  }
+
+  .Factory article {
+    width: 50%;
+    font-size: 15px;
+  }
+
+  .second_para {
+    display: none;
+  }
+
+  nav a {
+    font-size: 12px;
+    padding: 20px 20px;
+  }
+
+  .testmonial {
+    width: 45%;
+  }
+
+  .remove section {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .Factory {
+    flex-direction: column;
+    gap: 20px;
+    height: fit-content;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .menuIcon {
+    display: block;
+    font-size: 20px;
+  }
+
+  .fig figure {
+    width: 100%;
+  }
+
+  .advanced a {
+    font-size: 15px;
+  }
+
+  .mobil {
+    flex-direction: column;
+    gap: 10px;
+    height: fit-content;
+  }
+
+  .mobil,
+  .advanced form {
+    width: 100%;
+    padding: 20px 0px;
+  }
+
+  .testmonial figure {
+    width: 100%;
+  }
+}
